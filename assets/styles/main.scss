@@ -2,8 +2,9 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 //color
 $color--black: black;
-$color--h-a: #a53492;
+$color--h-a: #0f97afda;
 $color--green: green ;
+
 .color--gray{
   color: rgb(112, 106, 106);}
   //text
@@ -29,6 +30,7 @@ $text--red : red;
       background-color :gray;
     }
 }
+
 //font
 .font-style{
   &--roboto {
@@ -66,10 +68,10 @@ font-family: 'Lato', sans-serif;
 	}
 }
 body {
-  background: #E0EAFC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #4ECDC4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   
  @extend .font-style--lato;
 	color: $color--black;
@@ -143,6 +145,7 @@ hr {
 		text-align: center;
 	}
 }
+
 .fa {
   padding: 15px;
   font-size: 30px;
