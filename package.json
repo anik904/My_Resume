@@ -1,0 +1,19 @@
+{
+  "name": "my_digital_resume",
+  "version": "1.0.0",
+  "description": "MY CV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/node-sass/bin/node-sass assets/styles/main.scss assets/styles/cssmini.css --output-style compact ",
+    "watch": "./node_modules/node-sass/bin/node-sass assets/styles/main.scss assets/styles/cssmini.css --output-style compact -w "
+  },
+  "author": "Anik",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1"
+  }
+}
