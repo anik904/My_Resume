@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
-
 * body {
     min-height: 100vh;
 }
-* img {
 
-   width:100%;
-    height:auto;  
+* img {
+    width: 100%;
+    height: auto;
 }
+
 body {
     background: linear-gradient(to right, #ACB6E5, #74ebd5);
     font-family: 'Lato', sans-serif;
@@ -16,27 +16,39 @@ body {
     line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6, a{
-    color: #11998e;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    color: #FF6B6B;
     font-family: 'Roboto Slab', serif;
     text-transform: capitalize;
 }
-a{
-    text-decoration: none;
 
+a {
+    text-decoration: none;
 }
-hr{
-    color:gray;
+
+hr {
+    color: gray;
 }
+
 
 /** Utils */
 
+
 /* typography */
+
 .font--roboto {
     font-family: 'Roboto Slab', serif;
 }
 
+
 /*  color */
+
 .text--green {
     color: #11998E;
 }
@@ -49,29 +61,39 @@ hr{
     color: white;
 }
 
+
 /* transform  */
+
 .text--uppercase {
     text-transform: uppercase;
 }
 
+
 /*  font size */
+
 .fz--lg {
     font-size: 20px;
 }
+
 .fz--md {
     font-size: 18px;
 }
+
 .fz--sm {
     font-size: 12px;
 }
+
 .fz--xsm {
     font-size: 10px;
 }
 
+
 /* bg color */
+
 .bg--white {
     background-color: white;
 }
+
 .bg--green {
     background-color: green;
 }
@@ -83,6 +105,7 @@ hr{
 .bg__btn--green {
     background-color: green;
 }
+
 .bg__btn--gray {
     background-color: gray;
 }
@@ -94,6 +117,7 @@ hr{
 .mt-20 {
     margin-top: 20px;
 }
+
 .mx-10 {
     margin-left: 10px;
     margin-right: 10px;
@@ -103,102 +127,111 @@ hr{
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .px-10 {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .p-20 {
     padding: 20px;
 }
-.p-top-30{
-    padding-top:30px;
+
+.p-top-30 {
+    padding-top: 30px;
 }
-.p-bottom-30{
+
+.p-bottom-30 {
     padding-bottom: 30px;
 }
+
+
 /* grid */
 
 .container {
     width: 100%;
     margin: 0 auto;
-    
 }
-.button{
+
+.button {
     padding: 0.4em 0.6em;
     font-weight: bold;
 }
-.email--button{
-   background-color: #a8ff78;
-	color: #ffff;	
+
+.email--button {
+    background-color: #a8ff78;
+    color: #ffff;
 }
-.hireme--button{
-	background-color: #f5f5f6;
-	color: black;
+
+.hireme--button {
+    background-color: #f5f5f6;
+    color: black;
 }
+
 
 /* header */
 
 .header .avatar .avatar--img {
-    display:block ;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-   width: 100%;
-    width:250px;
-    height:250px; 
-    border: 4px solid gray ;
-    border-radius:50%;
+    width: 100%;
+    width: 250px;
+    height: 250px;
+    border: 4px solid gray;
+    border-radius: 50%;
 }
 
 .header .summary {
-   
     text-align: center;
 }
 
+
 /* for pc/tab */
 
-@media only screen and (min-width:440px){
-   
-
-    h1{font-size:30px}
-    h2{font-size:26px}
-    h3{font-size:22px}
-    h4{font-size:20px}
-    h5{font-size:18px}
-    h6{font-size:15px}
-    
+@media only screen and (min-width:440px) {
+    h1 {
+        font-size: 30px
+    }
+    h2 {
+        font-size: 26px
+    }
+    h3 {
+        font-size: 22px
+    }
+    h4 {
+        font-size: 20px
+    }
+    h5 {
+        font-size: 18px
+    }
+    h6 {
+        font-size: 15px
+    }
     /* header */
-    .header{
-        display:flex;
-       
+    .header {
+        display: flex;
         justify-content: space-evenly;
-       
     }
-    
     .header .avatar .avatar--img {
-       
-        width:350px;
-        height:350px; 
-
+        width: 350px;
+        height: 350px;
     }
-    
-    .bottom--part{
-        display:flex;
+    .bottom--part {
+        display: flex;
         margin-top: 2em;
-	    margin-bottom: 2em;
+        margin-bottom: 2em;
         padding: 2em;
         justify-content: center;
     }
-    .right--side{
-        width:40%;
+    .right--side {
+        width: 40%;
         padding-left: 1em;
-        padding-right:1em;
+        padding-right: 1em;
         border-right: 3px dashed #a8ff78;
-        
     }
-    .left--side{
-        width:45%;
+    .left--side {
+        width: 45%;
         padding-left: 3em;
     }
-   
-    }
-
+}
