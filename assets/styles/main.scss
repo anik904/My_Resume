@@ -69,12 +69,7 @@ $text--red: red;
 }
 
 body {
-    background: #4ECDC4;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #556270, #4ECDC4);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #DADDE2;
     @extend .font-style--lato;
     color: $color--black;
     font-size: 16px;
@@ -197,6 +192,67 @@ hr {
     border-radius: 7px;
     padding: 10px;
     text-align: center;
+}
+
+.getCv {
+    display: inline-block;
+    padding: 5px 12px;
+    border: 1px solid #4f4f4f;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    font-size: 15px;
+    color: black;
+    z-index: 1;
+}
+
+.getCv:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+
+.getCv:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #39bda7;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+
+.getCv:hover {
+    color: #ffffff;
+    border: 1px solid #39bda7;
+    text-decoration: none;
+}
+
+.getCv:hover:before {
+    top: -35%;
+    background-color: #39bda7;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.getCv:hover:after {
+    top: -45%;
+    background-color: #39bda7;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 
 @media only screen and (min-width:440px) {
