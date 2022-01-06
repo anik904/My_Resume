@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap";
 @import "node_modules/bootstrap/scss/bootstrap";
 //color
-$color--black: black;
+$color--black: #57606F;
 $color--h-a: #FF6B6B;
 $color--green: green;
 .color--gray {
@@ -76,9 +76,7 @@ body {
     line-height: 1.5;
 }
 
-h1,
 h2,
-h3,
 h4,
 h5,
 a {
@@ -92,6 +90,10 @@ a {
     @extend .font-style--roboto;
     text-transform: capitalize;
     text-decoration: none;
+}
+
+.highlighter {
+    color: #63cf5a;
 }
 
 hr {

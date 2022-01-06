@@ -3248,7 +3248,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .bg--btn_gray { background-color: gray; }
 
-.font-style--roboto, h1, h2, h3, h4, h5, a { font-family: 'Roboto Slab', serif; }
+.font-style--roboto, h2, h4, h5, a { font-family: 'Roboto Slab', serif; }
 
 .font-style--lato, body { font-family: 'Lato', sans-serif; }
 
@@ -3264,11 +3264,13 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 * img { width: 100%; height: auto; }
 
-body { background: #DADDE2; color: black; font-size: 16px; line-height: 1.5; }
+body { background: #DADDE2; color: #57606F; font-size: 16px; line-height: 1.5; }
 
-h1, h2, h3, h4, h5, a { color: #FF6B6B; text-transform: capitalize; }
+h2, h4, h5, a { color: #FF6B6B; text-transform: capitalize; }
 
 a { color: #FF6B6B; text-transform: capitalize; text-decoration: none; }
+
+.highlighter { color: #63cf5a; }
 
 .text--uppercase { text-transform: uppercase; }
 
